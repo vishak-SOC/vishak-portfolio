@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FaPython, FaMicrosoft, FaWindows } from "react-icons/fa";
+import { FaPython, FaMicrosoft, FaWindows, FaLinux, FaApple } from "react-icons/fa";
 import { 
     SiSplunk, 
     SiGnubash, 
@@ -9,7 +9,7 @@ import {
     SiWireshark, 
     SiBurpsuite, 
 } from "react-icons/si";
-import { Shield, Brain, Zap, Search, Terminal, Globe, Crosshair } from "lucide-react";
+import { Shield, Brain, Zap, Search, Terminal, Globe, Crosshair, HardDrive } from "lucide-react";
 
 const skills = [
     {
@@ -37,15 +37,15 @@ const skills = [
         className: "md:col-span-2 md:row-span-1 bg-red-900/10 border-red-500/20",
     },
     {
-        category: "Network & Forensics",
+        category: "Digital Forensics (DFIR)", // Renamed for more impact
         icon: <Search className="w-6 h-6" />,
         items: [
+            { name: "Volatility 3", icon: <Brain /> }, // Specific tool used in Task 3
             { name: "Wireshark", icon: <SiWireshark /> },
-            { name: "Sysmon Analysis", icon: <FaWindows /> },
-            { name: "Autopsy", icon: <Search /> },
-            { name: "Memory Analysis", icon: <Brain /> }
+            { name: "EZTools (MFT/Reg)", icon: <HardDrive /> }, // Highlights MFTECmd/Registry Explorer
+            { name: "Linux & macOS Forensics", icon: <FaLinux /> } // Highlights your Multi-OS work
         ],
-        // Bottom Left Block - Now Expanded to span 2 columns!
+        // Bottom Left Block
         className: "md:col-span-2 bg-neutral-900/50 border-neutral-800",
     },
     {
@@ -57,7 +57,7 @@ const skills = [
             { name: "PowerShell", icon: <Terminal /> },
             { name: "Bash", icon: <SiGnubash /> },
         ],
-        // Bottom Right Block - Now Expanded to span 2 columns!
+        // Bottom Right Block
         className: "md:col-span-2 bg-neutral-900/50 border-neutral-800",
     },
 ];
@@ -80,7 +80,7 @@ export default function Skills() {
                     </p>
                 </motion.div>
 
-                {/* Grid Layout: 2 items per row, perfectly aligned */}
+                {/* Grid Layout */}
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-6 auto-rows-[minmax(160px,auto)]">
                     {skills.map((skill, index) => (
                         <motion.div

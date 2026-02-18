@@ -54,7 +54,7 @@ export default function Hero() {
                         <Link href="https://www.linkedin.com/in/vishak-s-p-15438931b/" target="_blank" className="p-3 rounded-full border border-white/10 text-gray-400 hover:bg-white/10 hover:border-cyan-400/50 hover:text-cyan-400 transition-all">
                             <Linkedin size={22} />
                         </Link>
-                        <Link href="mailto:your.email@gmail.com" className="p-3 rounded-full border border-white/10 text-gray-400 hover:bg-white/10 hover:border-cyan-400/50 hover:text-cyan-400 transition-all">
+                        <Link href="mailto:vishaksp32@gmail.com" className="p-3 rounded-full border border-white/10 text-gray-400 hover:bg-white/10 hover:border-cyan-400/50 hover:text-cyan-400 transition-all">
                             <Mail size={22} />
                         </Link>
                     </div>
