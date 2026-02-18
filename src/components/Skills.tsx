@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FaPython, FaMicrosoft, FaWindows, FaLinux, FaApple } from "react-icons/fa";
+import { FaPython, FaMicrosoft, FaWindows, FaLinux } from "react-icons/fa";
 import { 
     SiSplunk, 
     SiGnubash, 
@@ -37,13 +37,13 @@ const skills = [
         className: "md:col-span-2 md:row-span-1 bg-red-900/10 border-red-500/20",
     },
     {
-        category: "Digital Forensics (DFIR)", // Renamed for more impact
+        category: "Digital Forensics (DFIR)",
         icon: <Search className="w-6 h-6" />,
         items: [
-            { name: "Volatility 3", icon: <Brain /> }, // Specific tool used in Task 3
+            { name: "Volatility 3", icon: <Brain /> },
             { name: "Wireshark", icon: <SiWireshark /> },
-            { name: "EZTools (MFT/Reg)", icon: <HardDrive /> }, // Highlights MFTECmd/Registry Explorer
-            { name: "Linux & macOS Forensics", icon: <FaLinux /> } // Highlights your Multi-OS work
+            { name: "EZTools (MFT/Reg)", icon: <HardDrive /> },
+            { name: "Linux & macOS Forensics", icon: <FaLinux /> } 
         ],
         // Bottom Left Block
         className: "md:col-span-2 bg-neutral-900/50 border-neutral-800",
