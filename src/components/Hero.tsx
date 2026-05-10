@@ -28,7 +28,7 @@ export default function Hero() {
                     <div className="flex items-center justify-center md:justify-start gap-4 mb-6">
                         <div className="h-[1px] w-12 bg-gray-700"></div>
                         <span className="text-sm text-gray-500 font-mono uppercase tracking-widest">
-                            Based in Belfast, UK
+                            Based in Dublin, Ireland
                         </span>
                     </div>
 
