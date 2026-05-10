@@ -1,5 +1,3 @@
-# 🛡️ Farhan in Cyber - Portfolio Website
-
 A modern, responsive portfolio website for a Cyber Security Analyst built with Next.js 15, TypeScript, and Tailwind CSS.
 
 ## Features
