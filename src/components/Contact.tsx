@@ -119,7 +119,7 @@ export default function Contact() {
                     <div className="flex items-center gap-4">
                         <div className="flex items-center gap-2 uppercase tracking-wider">
                             <MapPin size={12} />
-                            Belfast, UK
+                            Dublin, Ireland
                         </div>
                         <span className="hidden md:inline text-gray-700">|</span>
                         <span className="hidden md:inline uppercase tracking-wider">
