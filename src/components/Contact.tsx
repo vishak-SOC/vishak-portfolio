@@ -29,7 +29,7 @@ export default function Contact() {
                     <div className="flex flex-wrap gap-4">
                         {/* ⚠️ REMEMBER TO ADD YOUR EMAIL HERE */}
                         <Link
-                            href="mailto:your.email@gmail.com"
+                            href="mailto:vishaksp32@gmail.com"
                             className="inline-flex items-center gap-2 px-8 py-4 bg-cyan-500 text-black rounded-full text-lg font-bold hover:bg-cyan-400 transition-colors"
                         >
                             <Mail className="w-5 h-5" />
