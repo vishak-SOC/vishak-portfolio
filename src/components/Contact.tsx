@@ -83,7 +83,7 @@ export default function Contact() {
                         </div>
 
                         <div className="flex flex-wrap gap-6 mb-8 md:mb-4">
-                            <Link href="https://www.linkedin.com/in/vishak-s-p-15438931b/" target="_blank" className="text-gray-400 hover:text-cyan-400 transition-colors text-lg flex items-center gap-2">
+                            <Link href="https://www.linkedin.com/in/vishaksp" target="_blank" className="text-gray-400 hover:text-cyan-400 transition-colors text-lg flex items-center gap-2">
                                 LinkedIn <ArrowUpRight size={16} />
                             </Link>
                             <Link href="https://github.com/vishak-SOC" target="_blank" className="text-gray-400 hover:text-cyan-400 transition-colors text-lg flex items-center gap-2">
