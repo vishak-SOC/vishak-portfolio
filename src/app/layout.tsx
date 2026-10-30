@@ -73,7 +73,7 @@ export default function RootLayout({
     url: process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000',
     sameAs: [
       "https://github.com/vishak-SOC",
-      "https://linkedin.com/in/vishak-s-p-15438931b/",
+      "https://www.linkedin.com/in/vishaksp",
       "https://tryhackme.com/p/vishak32",
     ],
     description: "SOC Analyst specializing in SIEM, Incident Response, and Threat Hunting.",
