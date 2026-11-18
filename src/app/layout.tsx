@@ -33,7 +33,6 @@ export const metadata: Metadata = {
     title: "Vishak | SOC Analyst",
     description: "Portfolio of Vishak - SOC Analyst & Blue Team Defender",
     images: ["/og-image.png"],
-    creator: "@vishak", // Update if you have a Twitter handle
   },
   robots: {
     index: true,

@@ -5,8 +5,5 @@ export const config = {
     externalLinks: {
         github: process.env.NEXT_PUBLIC_GITHUB_URL || 'https://github.com/vishak-SOC',
         linkedin: process.env.NEXT_PUBLIC_LINKEDIN_URL || 'https://www.linkedin.com/in/vishaksp',
-        twitter: process.env.NEXT_PUBLIC_TWITTER_URL || '',
-        medium: process.env.NEXT_PUBLIC_MEDIUM_URL || '',
-        mediumRss: process.env.NEXT_PUBLIC_MEDIUM_RSS_URL || '',
     },
 } as const;
