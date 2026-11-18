@@ -7,7 +7,7 @@ import Link from "next/link";
 const certifications = [
     {
         name: "Junior Cybersecurity Analyst",
-        issuer: "Cisco",
+        issuer: "Cisco Networking Academy",
         issued: "Jan 2026",
         description: "Comprehensive career path covering Endpoint Security, Network Defense, and Threat Management.",
         icon: <ShieldCheck className="w-8 h-8 text-blue-400" />, // Cisco Blue
@@ -16,7 +16,7 @@ const certifications = [
     },
     {
         name: "Ethical Hacker",
-        issuer: "Cisco",
+        issuer: "Cisco Networking Academy",
         issued: "Jan 2026",
         description: "Validated skills in penetration testing, social engineering, and vulnerability assessment.",
         icon: <Lock className="w-8 h-8 text-cyan-400" />, // Security Cyan
@@ -34,7 +34,7 @@ const certifications = [
     },
     {
         name: "Endpoint Security",
-        issuer: "Cisco",
+        issuer: "Cisco Networking Academy",
         issued: "Jan 2026",
         description: "Specialized focus on securing network endpoints against malware and advanced persistent threats.",
         icon: <Globe className="w-8 h-8 text-indigo-400" />, // Indigo

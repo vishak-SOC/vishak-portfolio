@@ -3,25 +3,24 @@
 import { motion } from "framer-motion";
 import { Briefcase, GraduationCap, Award, ShieldCheck } from "lucide-react";
 
-// ✅ Updated with your REAL details from the screenshots
 const experiences = [
   {
-    role: "Junior Cybersecurity Analyst & Ethical Hacker", // Combined your Cisco titles
-    company: "Cisco",
+    role: "Junior Cybersecurity Analyst & Ethical Hacker Career Paths",
+    company: "Cisco Networking Academy",
     period: "Issued Jan 2026",
-    location: "Credential ID: Verified",
+    location: "Certificates",
     description: "Completed the official Career Path covering Endpoint Security, Cloud Defense, and Ethical Hacking. Acquired skills in Vulnerability Assessment, Social Engineering, and Windows Security.",
-    icon: <ShieldCheck className="w-6 h-6 text-white" />, 
+    icon: <ShieldCheck className="w-6 h-6 text-white" />,
     color: "bg-blue-500"
   },
   {
     role: "SOC Level 1 Certificate",
     company: "TryHackMe",
-    period: "Jan 2026 - Present",
-    location: "Top 1% Rank", // Added your ranking flex
+    period: "Issued Jan 2026",
+    location: "Top 1% Rank",
     description: "Hands-on SOC training mastering SIEM tools, Incident Response, and Threat Analysis. Validated skills in Security Analysis and Blue Team operations.",
     icon: <Award className="w-6 h-6 text-white" />,
-    color: "bg-red-500" // Red for TryHackMe branding
+    color: "bg-red-500"
   },
   {
     role: "Bachelor of Computer Science",

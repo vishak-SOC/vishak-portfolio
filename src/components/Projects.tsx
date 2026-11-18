@@ -25,7 +25,7 @@ const projects = [
   },
   {
     title: "Active Directory Lab",
-    category: "Detection Engineering",
+    category: "Detection Engineering · In progress",
     description: "Building a localized AD environment to simulate Kerberoasting and Golden Ticket attacks. Currently writing custom detection rules for Sysmon and Windows Event Logs to identify identity-based threats.",
     tech: ["Active Directory", "PowerShell", "Sysmon", "Atomic Red Team"],
     link: "#",
